@@ -8,7 +8,7 @@ import streamlit as st
 
 # Konfigurasi halaman web utama
 st.set_page_config(
-    page_title="Super App Analyzer - LW321 & DI319",
+    page_title="RM SME GUIDE - LW321 & DI319",
     page_icon="🏦",
     layout="wide",
 )
@@ -122,7 +122,7 @@ USER_CREDENTIALS = {
     "bagas": "123",
     "yoga28": "123",
     "ngurah": "123",
-    "agustianprimaryap": "123",
+    "prima": "123",
     "bri": "123",
 }
 
@@ -193,7 +193,7 @@ if not is_user_logged_in:
         unsafe_allow_html=True,
     )
     st.title("🔐 Login Super App (LW321 & DI319)")
-    st.markdown("**Developer:** Prima & Primarya")
+    st.markdown("**Developer:** Primarya")
     st.markdown("</div>", unsafe_allow_html=True)
 
   with col_btn_help:
